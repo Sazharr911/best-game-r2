@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #17100b;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+canvas#game {
+  display: block;
+  width: min(100vw, 177.78vh);
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #241a12;
+  box-shadow: 0 0 64px rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
